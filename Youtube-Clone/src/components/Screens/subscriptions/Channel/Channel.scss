@@ -1,0 +1,51 @@
+@import '../../../../index.scss';
+
+.Recommend{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    align-items: left;
+    cursor: pointer;
+
+    ._thumbnailchannel{
+      ._channel{
+         width: 136px;
+         height: 136px;
+         border-radius: 50%;
+         
+     }
+    }
+   
+    .desc{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        width: 700px;
+
+        .title{
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 550;
+            @include line-clamp(2);
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+        .channel{
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            color: #AAAAAA;
+            margin-left: 10px;
+            .description{
+                margin-top: 10px;
+               @include line-clamp(2);
+               width: 100%;
+            }
+            .name{
+                margin-top: 5px;
+            }
+        }
+    }
+}

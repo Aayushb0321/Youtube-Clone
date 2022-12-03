@@ -1,0 +1,104 @@
+._meta{
+    ._title{
+        border-bottom: 1px solid gray;
+        h5{
+            display: flex;
+            align-items: flex-start;
+            color: #FFFFFF;
+            text-align: left;
+            font-size: 15px;
+        }
+        .views{
+            font-size: 13px;
+            font-family:Roboto,Arial, sans-serif;
+            color: #AAAAAA;
+        }
+        .like-dislike{
+            width: 20%;
+            display: inline-flex;
+            align-items: flex-end;
+            img{
+                width: 17px;
+                cursor: pointer;
+                margin-right: 3px;
+            }
+            span{
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: white;
+                font-family:Roboto,Arial, sans-serif;
+                font-size: 12px;
+            }
+            .dislike{
+                margin-left: 10px;
+            }
+        }
+    }
+    ._channel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4px;
+        img{
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .name{
+            font-size: 14px;
+            color: #FFFFFF;
+            font-weight: bold;
+            margin: 0px 4px 0px 4px;
+            text-align: left;
+            cursor: pointer;
+        }
+        .detail{
+            font-size: 11px;
+            color: #AAAAAA;
+            margin: 0px 4px 0px 4px;
+            text-align: left;
+        }  
+        .subscribe{
+            background-color: #CC0000;
+            margin: 0px 2px;
+            padding: 5px 10px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+            border: none;
+        } 
+        .subscribed{
+            background-color: #FFFFFF1A;
+            margin: 0px 2px;
+            padding: 5px 10px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #AAAAAA;
+            border: none;
+        }
+    }
+    ._description{
+        p{
+            display: flex;
+            align-items: flex-start;
+            margin: 8px 0px 0px 45px;
+            text-align: left;
+            font-size: 14px;
+            font-family: Roboto,Arial,sans-serif;
+            color: #FFFFFF;
+        }
+        .showMoreText{
+            text-decoration: none;
+            border: none;
+            display: flex;
+            align-items: flex-start;
+            margin: 8px 0px 0px 42px;
+            color: #AAAAAA;
+            font-weight: bold;
+            background: transparent;
+            font-size: 12px;
+        }
+    }
+}

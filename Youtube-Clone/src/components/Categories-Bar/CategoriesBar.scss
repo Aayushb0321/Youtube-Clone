@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.categories-header{
+   padding: 0.1rem 0rem 0rem 0rem;
+   margin-top: 15px;
+   font-size: 0.8rem;
+   display: flex;
+   overflow-x: scroll;
+   margin-bottom: 8px;
+   border-bottom: 2.5px solid red;
+
+   &::-webkit-scrollbar {
+      width: 0px;
+   }
+
+   span {
+      margin-right: 1rem;
+      padding: 0.5rem;
+
+      font-family: Roboto,Arial, sans-serif;
+      font-size: 14px;
+      white-space: nowrap;
+      border-radius: 897px;
+      background-color: $black-primary;
+      color: #ffffff;
+      cursor: pointer;
+
+      &:hover {
+         background-color: #ffffff;
+         color: #030303;
+         font-weight: 510;
+         filter: brightness(1.25);
+      }
+
+      &.current {
+         background-color: #ffffff;
+         color: #030303;
+      }
+   }
+}
